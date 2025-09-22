@@ -5,7 +5,8 @@ import './App.css'
 import MuiTypograhpy from './component/MuiTypograhpy'
 import { Box } from '@mui/material'
 import MuiButton from './component/MuiButton'
-
+import MuiTextField from './component/MuiTextField'
+import ExpandableTable from './component/ExpandableTable'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -19,7 +20,9 @@ function App() {
     }}> 
       <h1>learning Material UI</h1>
       {/* <MuiTypograhpy /> */}
-      <MuiButton/>
+      {/* <MuiButton/> */}
+      {/* <MuiTextField/> */}
+      <ExpandableTable />
     </Box>
 
 
