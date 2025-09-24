@@ -9,6 +9,8 @@ const MuiSelect = () => {
 
     }
 
+    console.log("shivam singh")
+
   return (
   <Box width={'250px'}>
     <TextField label='select country' select value={country} onChange={handleChange}>
