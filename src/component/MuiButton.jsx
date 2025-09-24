@@ -16,10 +16,7 @@ const MuiButton = () => {
       setFormats(updatedformats)
     }
 
-
     console.log("shivam singh")
-
-    console.log("testing")
 
   return (
     <Stack spacing={4}>
